@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="about.css">    
+    <script>
+        require('./about.js');
+    </script>
+</head>
+<body>
+    <div class="page-container">
+        <div>
+            <h1>"Sneaky Weasel" Steganography</h1>
+        </div>
+        <div>
+            <h2>Version: 1</h2>
+            <h3>Hiding message: Step 1: Click on Sneaky messages and  select hide text. Then select image you want to encrypt and add text to be hidden
+                <br>
+                Step 2: Save encrypted image file to your preferred location.
+                <br><br>
+                Read message: Step 1: Go to discover text tab and upload your encrypted image, or an image file with hidden text received from a 3rd party.<br>
+                Step 2: Read uncovered message below your picture.
+            </h3>
+        </div>
+        <div class="buttons-container">            
+            <input id="close" type="button" value="Close" onclick="self.close()"/>
+        </div>
+    </div>
+</body>
+</html>
